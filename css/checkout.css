@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#ddd2ca, #FFFFFF);
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header .title {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+header .left,
+header .right {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item.active {
+    border: 1px solid #333333;
+}
+
+.content {
+    background-color: white;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.square {
+    width: 5rem;
+    height: 5rem;
+    background-color: #555050;
+    border-radius: 1rem;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+}
+
+.section-column {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-column > div {
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.pay-mentod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.pay-mentod img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.place-order {
+    display: block;
+    color: white;
+    background-color: #69BCFC;
+    padding: 0.3rem 1rem;
+    width: fit-content;
+    border-radius: 1rem;
+    margin: 0 auto 3rem;
+    text-decoration: none;
+}
